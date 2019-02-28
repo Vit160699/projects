@@ -1,0 +1,175 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+* {
+  font-family: "Myriad Pro";
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Myriad-Pro";
+  src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
+body {
+  margin: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: blueviolet;
+}
+
+header {
+  background-color: #008DCF;
+}
+header img {
+  width: 70%;
+}
+header .container {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .menu {
+  height: 55px;
+}
+header .menu ul {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+header .menu ul i {
+  color: #fff;
+  font-size: 30px;
+}
+header .menu ul li a {
+  font-size: 20px;
+  color: #fff;
+  margin: 0px 10px;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  background-color: #008DCF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer .container {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+}
+footer .copyright {
+  display: flex;
+  align-items: center;
+}
+footer .contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .contacts span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #52b4ec;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+}
+footer .contacts span:nth-child(2n) {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.slider-home {
+  height: 300px;
+  background-color: #000;
+}
+
+.boxes-home {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.boxes-home .container {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+}
+.boxes-home .box {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 200px;
+  height: 200px;
+  background-color: #113144;
+}
+.boxes-home .box:nth-child(2n) {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.boxes-home .box p {
+  font-size: 18px;
+}
+
+.text-home {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  text-align: center;
+  background-color: #113144;
+}
+.text-home .container {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+}
+.text-home p {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 30px;
+  color: #fff;
+}

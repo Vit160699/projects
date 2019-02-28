@@ -1,0 +1,189 @@
+* {
+
+    font-family: "Myriad Pro";
+    color: #fff;
+
+}
+
+
+body {
+    
+    margin: 0px;
+    background-color: blueviolet;
+
+}
+
+header {
+
+    background-color: #008DCF;
+
+    img {
+
+        width: 70%;
+    }
+
+    .container { 
+
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .menu {
+ 
+        height: 55px;
+
+        ul {
+
+            display: flex;
+            display: -webkit-flex;
+            align-items: center;
+            justify-content: flex-end;
+            list-style-type: none;
+
+        i {
+            color:#fff;
+            font-size: 30px;
+        }    
+            li {
+                a {
+
+                font-size: 20px;
+                color: #fff;
+                margin: 0px 10px;
+                text-decoration: none;
+
+                }
+            }
+        }
+    }
+}
+
+footer {
+
+    
+    display: flex;
+    display: -webkit-flex;
+    align-items: center; 
+    background-color: #008DCF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .container {
+
+        display: flex;
+        display: -webkit-flex;
+        justify-content: space-between;
+
+    }
+
+    .copyright {
+
+        display: flex;
+        align-items: center;
+
+    }
+
+    .contacts {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #52b4ec;
+            border-radius: 25px;
+            width: 50px;
+            height: 50px;
+
+            &:nth-child(2n) {
+
+                margin-right: 10px;
+                margin-left: 10px;
+            }
+    
+        }
+    }
+
+}
+
+.slider-home {
+
+    height: 300px;
+    background-color: #000;
+
+}
+
+.boxes-home {
+
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    
+
+    .container { 
+
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+
+    }
+
+    .box {
+
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 200px;
+        background-color: #113144;
+
+        &:nth-child(2n) {
+
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+
+        p {
+
+            font-size: 18px;
+
+        }
+        
+    }
+}
+
+.text-home {
+
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    text-align: center;
+    background-color:#113144;
+
+    .container { 
+
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+
+    }
+
+    p {
+
+        padding-top: 80px;
+        padding-bottom: 80px;
+        font-size: 30px;
+        color: #fff;
+    }
+}
