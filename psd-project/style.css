@@ -4,6 +4,10 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 576px) {
@@ -36,17 +40,12 @@
 }
 
 * {
-  font-family: "Myriad Pro";
+  font-family: "Arial";
   color: #fff;
 }
 
-@font-face {
-  font-family: "Myriad-Pro";
-  src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
-}
 body {
   margin: 0px;
-  font-family: Georgia, "Times New Roman", Times, serif;
   background-color: blueviolet;
 }
 
@@ -57,9 +56,6 @@ header img {
   width: 70%;
 }
 header .container {
-  display: flex;
-  display: -webkit-flex;
-  align-items: center;
   justify-content: space-between;
 }
 header .menu {
@@ -92,8 +88,6 @@ footer {
   padding-bottom: 20px;
 }
 footer .container {
-  display: flex;
-  display: -webkit-flex;
   justify-content: space-between;
 }
 footer .copyright {
@@ -131,11 +125,6 @@ footer .contacts span:nth-child(2n) {
   justify-content: center;
   background-color: #fff;
 }
-.boxes-home .container {
-  display: flex;
-  display: -webkit-flex;
-  justify-content: center;
-}
 .boxes-home .box {
   display: flex;
   display: -webkit-flex;
@@ -161,11 +150,6 @@ footer .contacts span:nth-child(2n) {
   align-items: center;
   text-align: center;
   background-color: #113144;
-}
-.text-home .container {
-  display: flex;
-  display: -webkit-flex;
-  justify-content: center;
 }
 .text-home p {
   padding-top: 80px;
